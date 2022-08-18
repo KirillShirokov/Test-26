@@ -12,6 +12,8 @@ class BaseConverter:
             print(f'{(9 / 5) * self.value + 32}')
         elif self.scale == 'K':
             print(f'{self.value + 273.15}')
+        else:
+            print('Incorrect scale')
 
 
 d = BaseConverter(32, 'K')
