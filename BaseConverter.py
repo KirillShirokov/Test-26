@@ -1,6 +1,7 @@
 class BaseConverter:
 
-    def __init__(self, value, scale):  #Scale должен быть C, F, K
+    def __init__(self, value, scale):  # scale possible values: ‘C’, ‘F’ or ‘K’
+
         self.value = value
         self.scale = scale
 
